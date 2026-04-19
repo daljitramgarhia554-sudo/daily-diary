@@ -1,0 +1,322 @@
+<html> 
+<head>
+<title> THE TOY SHOP </title> 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+  
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<style>
+
+#popup{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+}
+
+#popup-box{
+background:white;
+width:400px;
+padding:30px;
+text-align:center;
+border-radius:10px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+box-shadow:0 0 20px black;
+}
+
+#popup-box h2{
+color:red;
+}
+
+#popup-box button{
+background:red;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+.search-box {
+  width: 400px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+
+}
+
+.search-btn {
+  padding: 10px 15px;
+  border: none;
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button{
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  background-color: White;
+  box-shadow: 10px 10px 5px lightblue;
+  
+
+}
+
+
+</style>
+</head>
+
+
+
+
+
+
+
+<body>
+
+<div id="popup">
+<div id="popup-box">
+
+<h2>Welcome to THE TOY SHOP 🧸</h2>
+
+<p>Enjoy the best toys and special offers!</p>
+
+<button onclick="closePopup()">Enter Website</button>
+
+</div>
+</div>
+
+
+
+<nav class="navbar navbar-expand-sm navbar-danger bg-danger">
+  <div class="container-fluid">
+    <img src= "v.jpeg" alt="pictures" style="width:150px;height:100px;">
+    
+    
+    <div class="tt  text-warning"> <i class="material-icons"> Bucket  Check </i> 
+<p  class= "container-fluid     text-warning  " >Cart</p>  
+</div> 
+</div> 
+    
+    
+    
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+        
+        
+        
+       
+        
+        
+        
+      
+        
+          
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-warning" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container mt-3 text-center">
+<button type="button" class="btn">CATEGORIES --</button>
+  <button type="button" class="btn btn-primary">TOP BRAND</button>
+  <button type="button" class="btn btn-secondary">SHOP BY THEME</button>
+  <button type="button" class="btn btn-success">OTHER BRANDS </button>
+  <button type="button" class="btn btn-info">SHOP BY AGE</button>
+  <button type="button" class="btn btn-warning">SPECIAL OFFERS</button>
+</div>
+
+<div class="container-fluid mt-5">
+<div class="row kl" style= "width: 1750px"> 
+<div class="col-sm-3"> <img src="teddy.jpeg" width="400" height="550"  class="img-fluid border  border-3 border-primary" alt="image">
+</div>
+
+<div class="col-sm-3"> <img src="triangle.jpg" width="400" height="550"  class="img-fluid border  border-3 border-primary" alt="image">
+</div> 
+
+<div class="col-sm-3"> <img src="color.jpeg"   width="400" height="500"  class="img-fluid border  border-3 border-primary" alt="image">
+</div>
+
+<div class="col-sm-3"> <img src="red.jpeg" width="400" height="500"  class="img-fluid border  border-3 border-primary" alt="image">
+</div>
+
+</div>
+</div>
+
+
+<div class="container-fluid  mt-5 p-2 text-info text-center size-80" >
+<h1> SHOP BY CATEGORY</h1>
+</div>
+
+
+<div class="container-fluid mt-5">
+<div class="row kl"> 
+<div class="col-sm-2 "> 
+<img src= "dolls.jpeg"    class="img-fluid border  border-3 border-dark ">
+</div>
+
+<div class="col-sm-2"> 
+<img src= "cars.jpeg"  class="img-fluid border  border-3 border-dark ">
+</div> 
+
+<div class="col-sm-2"> 
+<img src= "cards.jpeg" class="img-fluid border  border-3 border-dark ">
+</div>
+
+<div class="col-sm-2">
+<img src= "12.jpeg"   class="img-fluid border  border-3 border-dark ">
+</div>
+
+<div class="col-sm-2">
+<img src= "plus.jpeg" class="img-fluid border  border-3 border-dark ">
+</div>
+
+<div class="col-sm-2">
+<img src= "b.jpeg"   class="img-fluid border  border-3 border-dark ">
+</div>
+
+</div>
+</div>
+
+
+<div class="container-fluid  mt-5 p-5  bg-warning   text-danger text-center size-60" >
+<h1> THE LEO SHOP </h1>
+<div class="row kl">
+<div class="col-sm-4"><img src= "mind.jpeg"  width="350" height="450">
+<div><button type="button" class="btn btn-outline-dark"> MINDCRAFT <br> Rs.3000</button></div>
+</div> 
+
+
+<div class="col-sm-4"><img src= "in.jpeg"  width="350" height="450">
+<div><button type="button" class="btn btn-outline-dark"> KEROKEROKE <br> Rs.4000</button></div>
+</div> 
+
+<div class="col-sm-4"><img src= "ad.jpeg"  width="350" height="450">
+<div><button type="button" class="btn btn-outline-dark"> ADVENTURE <br> Rs.45000</button></div>
+</div> 
+
+</div> 
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid  mt-5 p-5     text-danger text-center size-60" >
+<h1> __________Why Choose Us_________? </h1>
+</div> 
+
+<div class="row rr">
+ 
+ 
+<div class="col-sm-4 text-danger"> <i class="material-icons"> map</i> 
+<p  class= "container-fluid  text-danger  size-60"> original products </p>  </div>
+
+  
+ 
+ <div class="col-sm-4 text-danger"> <i class="material-icons"> directions_bike</i>  
+<p class= "container-fluid   text-danger  size-60"> COD Avalable</p> </div> 
+
+
+<div class="col-sm-4 text-danger"> <i class="material-icons"> tablet</i> 
+<p  class= "container-fluid     text-danger  size-60" >Secured Payments</p>  
+</div> 
+</div> 
+
+
+
+<div class="container-fluid   p-4  bg-danger   text-warning size-25" >
+<div class="row uu">
+<hr class="  border-warning border-2 opacity-100">
+ 
+<div class="col-sm-6 text-warning size-30">INFORMATION 
+<ol> 
+
+<li > Return and cancellation </li>
+<li > Refund </li> 
+<li > Shipping Policy </li>
+<li > Privacy and cookies </li> 
+<li > Disclaimer</li> 
+<li > Terms and conditions  </li > 
+</ol> 
+</div> 
+
+
+<div class="col-sm-6">FEATURED BRANDS 
+<ol> 
+
+<li > disney </li >
+<li > barbie</li> 
+<li > hot wheel </li >
+<li > funskool</li> 
+<li > lego</li> 
+<li > marvel </li > 
+</ol> 
+</div> 
+
+
+
+
+
+<script>
+
+window.onload = function(){
+document.getElementById("popup").style.display="block";
+}
+
+function closePopup(){
+document.getElementById("popup").style.display="none";
+}
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html> 
